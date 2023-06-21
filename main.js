@@ -52,7 +52,7 @@ function display(){
       var name = details[i].stdname;
       
 
-      // var url = new URL("http://127.0.0.1:5500/task7trial/mark.html");//
+      // var url = new URL("http://127.0.0.1:5500/task7/marks.html");//
       var url = new URL(findurl());
       
       url.searchParams.append('x', i);
